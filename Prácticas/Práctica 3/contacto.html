@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contacto.css">
+
+</head>
+
+<body>
+    <h2>CONTACTO</h2>
+    <h3>Registrate para recibir notificaciones de contenido nuevo.</h3>
+    <h4>Puedes rellenar el siguiente formulario: </h4>
+    <br>
+    <div class="contenedor">
+        <br>
+        <h5 class="titulo">DATOS PERSONALES</h5>
+        <br>
+        <form action="gracias.html" method="GET">
+            <div class="relleno">
+                <label for="Nombre_Completo">Nombre Completo</label>
+                <input type="text" placeholder="Nombre Completo" maxlength="5" name="Nombre_Completo:" id="Nombre_Completo" pattern=[A-Za-z]{5} required>
+                <br>
+
+                <label for="correo_electronico">Correo Electrónico</label>
+                <input type="email" placeholder="ejemplo@gmail.com" name="correo_electronico" id="correo_electronico">
+                <br>
+
+                <label for="numero_telefono">Número de Teléfono</label>
+                <input type="tel" placeholder="Número de Teléfono" name="numero_telefono" id="numero_telefono" required>
+                <br>
+
+                <label for="fecha_actual">Fecha Actual</label>
+                <input type="date" name="fecha_actual" id="fecha_actual">
+                <br>
+
+                <label for="Tipo_de_Usuario">Tipo de Usuario</label>
+                <input list="Tipo_de_Usuario">
+                <datalist id="Tipo_de_Usuario">
+                  <option value="Lector virtual">Lector Regular</option>
+                  <option value="Suscripcion virtual">Lector Suscrito</option>
+                  <option value="Seguidor de Blog">Seguidor</option>
+             </datalist>
+                <br>
+
+                <label for="Lugar_de_Información">Lugar del que requiere informacion:</label>
+                <input list="Lugar_de_Información" placeholder="Seleccione departamento">
+                <datalist id="Lugar_de_Información">
+                  <option value="Seleccione_departamento" disabled>Seleccione Departamento</option>
+                  <option value="La Paz">La Paz</option>
+                  <option value="Oruro">Oruro</option>
+                  <option value="Potosí">Potosí</option>
+                  <option value="Cochabamba">Cochabamba</option>
+                  <option value="Sucre">Sucre</option>
+                  <option value="Tarija">Tarija</option>
+                  <option value="Pando">Pando</option>
+                  <option value="Beni">Beni</option>
+                  <option value="Santa Cruz">Santa Cruz</option>
+             </datalist>
+                <br>
+
+                <label for="comentario">Informacion Adicional:</label>
+                <br>
+                <textarea name="comentario" name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                <br>
+
+                <input type="submit" value="Enviar" id="Enviar" name="Enviar">
+                <br>
+            </div>
+        </form>
+    </div>
+
+    <footer class="pie">
+        <p>Derechos Reservados - 2021</p>
+    </footer>
+
+
+</body>
+
+</html>
