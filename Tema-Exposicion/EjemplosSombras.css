@@ -1,0 +1,19 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.efectoS {
+    color: #E75D08;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 30px;
+}
+
+.Esombra {
+    text-shadow: 2px 2px;
+    font-size: 30px;
+}
+
+.EsombraC {
+    box-shadow: 10px 10px 5px #b5e699;
+    width: 100px;
+}

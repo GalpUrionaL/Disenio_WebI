@@ -1,0 +1,31 @@
+body {
+    background: #FFF1E6;
+    justify-content: center;
+    margin: 10%;
+    padding: auto;
+}
+
+.contenedor2 {
+    background-color: #DFE7FD;
+    justify-items: center;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.detalle {
+    text-align: center;
+}
+
+.pie {
+    background: #CDDAFD;
+    justify-content: left;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+}

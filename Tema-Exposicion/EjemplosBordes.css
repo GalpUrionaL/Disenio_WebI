@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bpunteado {
+    border-style: dotted;
+}
+
+.bpunteadog {
+    border-style: dashed;
+}
+
+.bsolido {
+    border-style: solid;
+}
+
+.bdoble {
+    border-style: double;
+}
+
+.bacanalado {
+    border-style: groove;
+}
+
+.bestirado {
+    border-style: ridge;
+}
+
+.binsertado {
+    border-style: inset;
+}
+
+.bincial {
+    border-style: outset;
+}
+
+.boculto {
+    border-style: hidden;
+}
+
+.anchoB {
+    border-style: dashed;
+    border-width: 7px;
+}
+
+.colorB {
+    border-style: outset;
+    border-color: #E53E1C;
+}
+
+.lfronteB {
+    border-top-style: groove;
+    border-left-style: double;
+    border-right-style: outset;
+    border-bottom-style: hidden;
+}
+
+.Btaqui {
+    border-left: 6px solid #69E708;
+    background-color: lightgrey;
+}
