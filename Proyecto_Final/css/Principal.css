@@ -79,6 +79,7 @@ this in HTML Line #6.
 .main {
     margin: auto;
     padding: auto;
+    background: #07BEB8;
     max-width: 900px;
     display: flex;
     flex-direction: row;
@@ -93,4 +94,13 @@ this in HTML Line #6.
 .main article .thumb img {
     vertical-align: auto;
     width: 100%;
+}
+
+.títuloP {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    justify-content: space-around;
 }

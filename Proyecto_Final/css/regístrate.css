@@ -94,3 +94,21 @@ this in HTML Line #6.
     vertical-align: auto;
     width: 100%;
 }
+
+.contenedor {
+    background-color: #DFE7FD;
+    justify-items: space-around;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    border: lightseagreen;
+}
+
+.pie {
+    background: #CDDAFD;
+    justify-content: end;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+}

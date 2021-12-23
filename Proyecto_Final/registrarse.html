@@ -31,10 +31,64 @@
             <article>
                 <div class="thumb">
                     <img src="imagenes/regístrate_portada.jpg" alt="Imagen de portada" height="600px">
+                    <br>
+                    <h2>CONTACTO</h2>
+                    <br>
+                    <h3>Registrate para recibir notificaciones de contenido nuevo. Puedes rellenar el siguiente formulario: </h3>
+                    <br>
                 </div>
             </article>
+            <br>
+            <div class="contenedor">
+                <br>
+                <h5 class="titulo">DATOS PERSONALES</h5>
+                <br>
+                <form action="index.html" method="GET">
+                    <div class="relleno">
+                        <label for="Nombre_Completo">Nombre Completo</label>
+                        <input type="text" placeholder="Nombre Completo" maxlength="5" name="Nombre_Completo:" id="Nombre_Completo" pattern=[A-Za-z]{5} required>
+                        <br>
+
+                        <label for="correo_electronico">Correo Electrónico</label>
+                        <input type="email" placeholder="ejemplo@gmail.com" name="correo_electronico" id="correo_electronico">
+                        <br>
+
+                        <label for="numero_telefono">Número de Teléfono</label>
+                        <input type="tel" placeholder="Número de Teléfono" name="numero_telefono" id="numero_telefono" required>
+                        <br>
+
+                        <label for="fecha_actual">Fecha Actual</label>
+                        <input type="date" name="fecha_actual" id="fecha_actual">
+                        <br>
+
+                        <label for="Tipo_de_Usuario">Tipo de Usuario</label>
+                        <input list="Tipo_de_Usuario">
+                        <datalist id="Tipo_de_Usuario">
+                           <option value="Lector virtual">Lector Regular</option>
+                           <option value="Suscripcion virtual">Lector Suscrito</option>
+                           <option value="Seguidor de Blog">Seguidor</option>
+                        </datalist>
+                        <br>
+
+                        <label for="comentario">Informacion Adicional:</label>
+                        <br>
+                        <textarea name="comentario" name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                        <br>
+
+                        <input type="submit" value="Enviar" id="Enviar" name="Enviar">
+                        <br>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
+    <aside>
+        <footer class="pie">
+            <br>
+            <p>Derechos Reservados@ - 2021</p>
+            <br>
+        </footer>
+    </aside>
 </body>
 
 </html>
