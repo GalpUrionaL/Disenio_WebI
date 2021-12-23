@@ -106,7 +106,7 @@ this in HTML Line #6.
 
 .pie {
     background: #CDDAFD;
-    justify-content: end;
+    justify-content: center;
     text-align: center;
     width: 75%;
     margin: auto;
