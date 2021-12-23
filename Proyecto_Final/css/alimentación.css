@@ -94,3 +94,12 @@ this in HTML Line #6.
     vertical-align: auto;
     width: 100%;
 }
+
+.pie {
+    background: #CDDAFD;
+    justify-content: end;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+}

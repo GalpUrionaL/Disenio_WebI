@@ -104,3 +104,12 @@ this in HTML Line #6.
 p {
     justify-content: space-around;
 }
+
+.pie {
+    background: #CDDAFD;
+    justify-content: end;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+}
