@@ -96,6 +96,10 @@ this in HTML Line #6.
     width: 100%;
 }
 
+article {
+    justify-items: center;
+}
+
 .títuloP {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
