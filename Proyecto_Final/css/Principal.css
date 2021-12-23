@@ -96,8 +96,11 @@ this in HTML Line #6.
     width: 100%;
 }
 
-article {
-    justify-items: center;
+.articuloContenedor {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    text-align: justify;
 }
 
 .títuloP {
@@ -106,8 +109,9 @@ article {
 }
 
 p {
-    justify-content: space-around;
+    justify-content: center;
     text-align: justify;
+    font-weight: 50%;
 }
 
 .subtítulo {
