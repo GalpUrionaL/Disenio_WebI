@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #D2FFFA;
+    justify-content: center;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #07BEB8;
+}
+
+.navegacion {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navegacion li:first-child {
+    display: block;
+}
+
+.navegacion li {
+    display: none;
+}
+
+.navegacion a {
+    display: block;
+    color: #FFFFFF;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navegacion a:hover {
+    color: #000;
+    background-color: #FCEADE;
+    font-weight: 750;
+}
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) 
+to display block because the repsonsive class is added to the end of the class list like 
+this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+
+.responsive li {
+    display: block;
+}
+
+
+/* Media Query for medium + screens */
+
+@media only screen and (min-width: 32.5em) {
+    .navegacion {
+        display: flex;
+    }
+    .navegacion li:first-child {
+        display: none;
+    }
+    .navegacion li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navegacion li a {
+        color: #FFFFFF;
+    }
+}
+
+
+/*Estilos para el contenedor*/
+
+.main {
+    margin: auto;
+    padding: auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main article .thumb {
+    margin-bottom: auto;
+}
+
+.main article .thumb img {
+    vertical-align: auto;
+    width: 100%;
+}
